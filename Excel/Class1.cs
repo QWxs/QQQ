@@ -15,6 +15,10 @@ namespace Excel
         
         public static int Update (string sql,string path)
         {
+
+
+
+
             //构建连接语句
             string sConnectionString = 
                 "Provider = Microsoft.ACE.OLEDB.12.0;" + 
